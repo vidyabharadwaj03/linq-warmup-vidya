@@ -14,17 +14,26 @@ namespace OutpatientsAnalytics.Controllers
 
         public IActionResult NoShowRates()
         {
-            return Json(_reportsService.GetNoShowRatesByDepartment());
+            // TODO: Students implement this action
+            // Call _reportsService.GetNoShowRatesByDepartment()
+            // Return Json result
+            throw new NotImplementedException("Students need to implement this action");
         }
 
         public IActionResult TopClinicians()
         {
-            return Json(_reportsService.GetTopCliniciansThisMonth());
+            // TODO: Students implement this action
+            // Call _reportsService.GetTopCliniciansThisMonth()
+            // Return Json result
+            throw new NotImplementedException("Students need to implement this action");
         }
 
         public IActionResult WaitTimes()
         {
-            return Json(_reportsService.GetAverageWaitTimesBySpecialty());
+            // TODO: Students implement this action
+            // Call _reportsService.GetAverageWaitTimesBySpecialty()
+            // Return Json result
+            throw new NotImplementedException("Students need to implement this action");
         }
     }
 }
